@@ -19,7 +19,8 @@ const writeFile = (file, data) => {
       resolve('success');
     });
   });
-};
+};    
+
 
 readFilePro(`${__dirname}/dog.txt`)
   .then((data) => {
